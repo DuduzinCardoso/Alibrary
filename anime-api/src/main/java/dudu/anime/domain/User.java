@@ -16,7 +16,7 @@ import java.util.stream.Collectors;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-@Table("postgres.public.user")
+@Table("public.user")
 public class User implements UserDetails {
 
     @Id
